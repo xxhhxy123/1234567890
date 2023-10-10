@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+*,*:before,*:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body{ margin:0px; padding:0px; font-size:12px;font-family:"微软雅黑","黑体";color:#898989;line-height:1; background:#FFF;}
+ul,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,ol,form,input{ margin:0px; padding:0px;}
+input,textarea { font-family: "微软雅黑"; border: none; outline: none; background: none; }
+ul,li{ list-style:none}
+img{border:0px; padding:0px; display: block;}
+a{ color:#5c5c5c; text-decoration:none}
+
+h2,h3,h4,b,strong { font-weight: normal; }
+em,i { font-style: normal; }
+
+.clear{ zoom: 1; }
+.clear:after { content: ''; display: block; clear: both; }
+.fl { float:left}
+.fr { float:right}
+.hidden{display:none; background: url() no-repeat center;}
+
+.qjnr img{width: 100%;}
+.box1{position: relative;}
+.box1_text{width: 70%; position: absolute;left:50%; top:50%; transform:translate(-50%,-50%);}
+.box1_text li{padding: 1% 0;}
+.bj1{background: url(../images/bj1.png) center center;background-size:50% auto; padding: 50px;}
+.box3 img{width: 100%;}
+.box4_title img{width: 100%;}
+.box4_nr ul{overflow: hidden;}
+.box4_nr li{float: left; width: 50%;}
+.box4_nr p img{width: 100%;}
+.box4_nr h2 img{margin: 0 auto; width: 70%;}
+
+.box5_title{padding: 3% 10% 0 10%;}
+.box5_title img{width: 100%;}
+.box5_nr ul{display: flex; align-items: center;}
+.box5_nr li{width: 50%; padding: 0 5%; }
+.box5_nr img{width: 100%;}
+
+.bj2{background: url(../images/bj2.png) no-repeat center center;background-size: cover;}
+.bj2 img{width: 100%;}
+
+.box6{position: relative;}
+.box6 img{width: 100%;}
+.btn{position: absolute;width: 1.66rem;height: .8rem;}
+.btn img{width: 100%;position: absolute; top: 0;left: 0;}
+.c1{opacity: 1;}
+.c2{opacity: 0;}
+.btn:hover .c1{opacity: 0;}
+.btn:hover .c2{opacity: 1;}
+.btn1{left: 1.3rem; top: 5.2rem;}
+.btn2{left: 8.1rem; top: 5.2rem;}
+.btn3{right: 3.7rem; top: 5.2rem;}
+.btn4{left: 4.6rem; bottom: 0;}
+.btn5{left: 10.8rem; bottom: 0;}
+.btn6{right: .7rem; bottom: 0;}
+.box6_btn{position: absolute;bottom: 1.4rem;left: 0;text-align: center; width: 100%;}
+.box6_btn ul{overflow: hidden;text-align: center;}
+.box6_btn li{display: inline-block; padding:0 1.25rem ;}
+.btn_b{width: 1.98rem;height: 1.08rem;position: relative; display: inline-block;}
+.btn_b img{position: absolute; width: 100%; top: 0;left: 0;}
+.btn_b:hover .c1{opacity: 0;}
+.btn_b:hover .c2{opacity: 1;}
+
+
+
+
+
+
+
+@media(max-width:1360px){
+.header, .content, .footer{width: 100%;}
+.seabox{display: none;}
+
+}
+@media(max-width:1000px){
+.h_top{height: 60px; width: 100%; background: #fff; position: fixed;left: 0; top: 0;z-index: 12;}
+.t_con{height: auto; padding: 0;}
+.t_con h1{width: 140px; position: absolute; left:3%; top:8px;}
+.t_con h1 img{width: 100%;}
+.t_pho{display: none;}
+.t_text{display: none;}
+.dhbtn{position: absolute; width: 30px;height: 30px; right: 3%; top: 15px;background:url(../images/d1.png) no-repeat center center;background-size: 25px 25px;z-index: 100;}
+.menu{position: fixed;width: 80%; left:-100%; top:0;background: #206be7;height: 100%; overflow: auto !important;}
+.menu li{float: none;width: 100%; line-height: 60px;}
+.jb{width: 100%;height: 100%; position: fixed; left:0; top:0; background: rgba(0,0,0,.7);z-index: 10;display: none;}
+.ggbtn{display: block; background: url(../images/d2.png) no-repeat center center;background-size: 25px 25px; position: absolute; right: 10px; top: 10px;}
+.menu li dl{position: relative; left:0;top: 0;}
+.menu li>a{text-align: center;}
+.banner{padding-top: 60px;}
+.pcsz{display: none;}
+.sjzs{display: block;}
+.client-2{display: none;}
+
+
+
+
+}
+
+
+
+
+
